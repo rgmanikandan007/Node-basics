@@ -9,10 +9,10 @@ app.use((req, res, next) => {
     }
 });
 
-// // Middleware
-// app.get("/", (req, res) => {
-//     res.send("Access granted!");
-// });
+// Middleware
+app.get("/", (req, res) => {
+    res.send("Access granted!");
+});
 
 
 app.listen(3000, () => {
